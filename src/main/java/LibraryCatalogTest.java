@@ -12,6 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class LibraryCatalogTest {
     @Test
     void testAddBookAndIterateByGenre() {
+        
         DataStore dataStore = new InMemoryDataStore();
         Catalog catalog = new LibraryCatalog(dataStore);
 
