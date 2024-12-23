@@ -1,6 +1,5 @@
 package catalog;
 
-import catalog.Catalog;
 import model.Book;
 import datastore.DataStore;
 import java.util.ArrayList;
